@@ -27,3 +27,6 @@ class Libray:
 
     def click(self,loc):
         self.locator(loc).click()
+
+    def close(self):
+        self.driver.quit()
