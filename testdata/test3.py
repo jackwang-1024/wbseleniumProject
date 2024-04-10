@@ -10,3 +10,6 @@ if __name__ == '__main__':
 dict1={"id":By.ID,"name":By.NAME}
 print(dict1["id"])
 print(dict1["name"])
+
+for i in range(1,3):
+    print(i)
